@@ -18,7 +18,7 @@ The test cases are generated so that the answer fits in a 32-bit integer.
 from typing import List
 
 def numDecodings(s: str) -> int:
-    def numDecodings(s: str) -> int:
+    
     # Check if the string is empty or starts with '0'
     if not s or s[0] == '0':
         return 0
